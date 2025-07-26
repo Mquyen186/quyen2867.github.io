@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fc;
+    text-align: center;
+    color: #333;
+}
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 50px 20px;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h1 { margin: 10px 0; font-weight: 600; }
+h2 { color: #444; margin-top: 30px; font-weight: 600; }
+.social a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    padding: 8px 16px;
+    background: #e3e7ff;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.social a:hover {
+    background: #667eea;
+    color: white;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.donate {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.qr-big {
+    width: 250px;
+    height: 250px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
